@@ -1,0 +1,34 @@
+---
+title: New Publication
+date: 2025-05-20 11:10:00 -0400
+categories: [news, publications]
+tags: [papers, publication, hydrogen-bonding, anions]
+---
+# <a href="https://chemistry-europe.onlinelibrary.wiley.com/doi/abs/10.1002/chem.202501400">My First Paper</a>
+I'm pleased to announce that my first paper with myself as the first author has been officially published as of May 15th. Click on the link to see the official journal page with the paper. If you can't access the full paper, go to the bottom of this page for a download. The work for this paper was mostly completed early last year using a simple anion-binding receptor. In this post, I will provide a summary of the key points of the paper for those unfamiliar with the field of supramolecular chemistry.
+
+In this paper, we have shown that charge and strongly hydrogen bonding motifs work together greatly improve binding in water and demonstrates each's contributions. This is impactful because water is _the_ biologically relevant solvent and is highly comptetitive with receptors because they form hydrogen bonded solvation layers around both the guest and binding groups on the host, which must be overcome for binding to be observed. Because we have the charge _and_ the strong hydrogen bonding motifs, we are able to get selectivity for strongly solvated anions, like sulfate (SO<sub>4</sub><sup>2-</sup>) vs weakly solvated, more hydrophobic anions using this simple receptor. This selectivity is the opposite of what is normally achieved in this field, because it is generally easier to get the hydrophobic guests into hydrophobic binding sites. The reason for this observed selectivity is most likely due to the charge complementarity as our host is 2+ and binds best with 2- guests.
+
+![BPTL2+•2Cl](/assets/img/posts/BPTL-Structure.png){: h="300" w="300"}
+_Chemdraw Structure of BPTL<sup>2+</sup>•2Cl<sup>-</sup>_
+
+This receptor is a tetralactam macrocycle which features 4 amide bonds, pyridinium units, and polarized carbon-hydrogen bonds for selective anion recognition. Based on these features it is dubbed our bipyridinium tetralactam (BPTL<sup>2+</sup>•2Cl<sup>-</sup>) macrocycle. The amide bonds point towards the central cavity and the the pyridinium units polarize the C‒H para to the nitrogen which also provide hydrogen bond donor groups for anion binding in the cavity. Moreover, the positive charge of the two pyridiniums electrostatically attract the anions. For these structural reasons, we observed strong binding with strongly solvated, charge dense anions, most significantly with sulfate (SO<sub>4</sub><sup>2-</sup>) and oxalate (C<sub>2</sub>O<sub>4</sub><sup>2-</sup>).
+
+![BPTL-Computed-Binding-Mode](/assets/img/posts/BPTL-Computed-Binding-Mode.png){: h="300" w="300"}
+_Computed Structure with SO<sub>4</sub><sup>2-</sup> (top) and C<sub>2</sub>O<sub>4</sub><sup>2-</sup> (bottom)_
+
+Based on crystal structures of the precursor molecule with bound guests as well as DFT optimized conformational isomers of the final products we see that the macrocycle forms a 'saddle' structure. In the precursor, we do not see envelopment of the guest molecule because the crystal was formed in organic solvent, where the solvent is being ordered due to hydrogen bonding. The computed structures in an aqueous environment show the pyridinium units enveloping the guest to counteract the charges and create a hydrophobic pocket for the guest to be bound within and 'squeeze' out water molecules. These binding modes agree with the experimental observations which we'll get into next.
+
+![BPTL-SO4-NMR-ITC](/assets/img/posts/BPTL-SO4-NMR-ITC.jpg){: h="300" w="300"}
+_(a) ¹H NMR spectra (600 MHz, 10% D₂O / 90% H₂O) of solutions containing BPTL<sup>2+</sup>·2Cl⁻ (0.1 mM) with only (bottom) HCl (1 mM) and (top) with HCl (1 mM) plus Na₂SO₄ (5 mM). Proton labels are displayed in Figure 1. (b) Nonlinear fitting of the chemical shift changes of proton C during the titration of BPTL<sup>2+</sup>·2Cl⁻ with Na₂SO₄ in D₂O. (c) Calculated mole fraction changes of free BPTL<sup>2+</sup> and the sulfate complex (SO₄<sup>2-</sup>⊂BPTL<sup>2+</sup>) in D₂O as a function of the guest–host mole ratio. (d) ITC profile of BPTL<sup>2+</sup>·2Cl⁻ (0.8 mM) during titration with Na₂SO₄._
+
+We did NMR titration studies and Isothermal Titration Calorimetry (ITC) to determine the binding affinity toward specific anions. Using proton (<sup>1</sup>H) NMR, the electron density around each proton is illustrated. The protons which are involved in binding a negative charge will become more positively charged as there is a larger equilibrium of the molecule interacting with the guest. In our studies in deuterated water (D<sub>2</sub>O), we observed this mainly with the N-H proton (the amide proton) proton <b>C</b> (the central proton) and proton <b>B</b> (adjacent to the charged nitrogen). This tells us that the binding site is mostly related to those two protons in the pyridinium rings. We add in the guest until we observe no change in the chemical shifts to determine the affinity for the guest. If the binding is strong you would need only a small excess of the guest. ITC measures the amount of heat absorbed or released as a solution of the host is titrated with a solution of the guest. From these measurements you can determine when the host has been saturated and determine the Enthalpy (ΔH), Entropy (ΔS), and Free Energy (ΔG). These thermodynamic constants explain what drives the binding events. Above are the results from <sup>1</sup>H NMR and ITC titrations of the host with Na<sub>2</sub>SO<sub>4</sub> to illustrate the explanations. We see that protons <b>NH</b>, <b>B</b>, and <b>C</b> are the ones which are most involved in binding and that the event is entropy driven.
+
+![HCSL-Structure](/assets/img/posts/HCTL-structure.png){: h="300" w="300"}
+_Chemdraw Structure of HCSL<sup>6-</sup>•6Na<sup>+</sup>_
+
+In the final work we did for the paper, we did the same experiments with a similar molecule that we synthesized. That molecule lacked the positively charged nitrogens and instead had a large water solubilization group attached where the nitrogen was alkylated (shown above). This molecule showed no appreciable binding at all to the same guests.
+
+Finally, thank you for reading through this whole summary. I look forward to posting more about my research in the future. If you aren't someone with access to a university library or a company subscription to the relevent journal you can download the paper via the link below.
+
+Paper Citation: _Chem. - A Eur. J._, <b>2025</b>, e202501400 [[Link](/assets/papers/Chemistry-A European-J-2025-Mariscal-Sulfate-Recognition-in-Water-via-Charge‐Assisted-Hydrogen-Bonding.pdf)]
