@@ -300,7 +300,7 @@ There is a general issue with the deck shuffling and that is the amount of trave
 You get this number because you have 26 pairs of numbers between 1 and 52 (52 is the max number of operations to do), and the sum of each pair is 53. Gauss proved that the sum of a series of consecutive numbers is equal to 
 
 $$
-\frac{n * (n+1)}{2} = \frac{n^{2}}{2} + \frac{n}{2} + \frac{1}{2}
+\frac{n * (n+1)}{2} = \frac{n^{2}}{2} + \frac{n}{2}
 $$
 
 which is how you get $$ \frac{52*(53)}{2} = 1378 $$ operations. When you are considering runtime, you drop the constants and non-significant numbers so computer scientists say this is O(n<sup>2</sup>) runtime. In practice running my program still happens pretty much instantly because computers are so fast doing billions of operations per second. I recently learned that to make this faster, my nodes should be stored in a hash-map data structure and then I wouldn't have to code list traversals as it would be only 1 operation to go to a specific card, but that will be some other time.
