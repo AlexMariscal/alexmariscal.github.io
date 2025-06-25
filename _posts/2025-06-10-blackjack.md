@@ -1,7 +1,7 @@
 ---
 title: Blackjack Data Structures & Algorithms
 date: 2025-06-10 23:00:00 -0400
-categories: [programming, DSA]
+categories: [programming, dsa]
 tags: [python, c++, typescript]
 math: true
 ---
